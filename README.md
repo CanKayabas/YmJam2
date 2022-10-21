@@ -62,7 +62,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://cdn.discordapp.com/attachments/1030885419786711151/1033073539890286652/unknown.png)
+[![YmJam#2 ScreenShot][product-screenshot]](https://cdn.discordapp.com/attachments/1030885419786711151/1033073539890286652/unknown.png)
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `CanKayabas`, `Oino`, `kayabasscann@gmail.com`
 
