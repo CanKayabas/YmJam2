@@ -1,0 +1,127 @@
+<!---
+                       Yazılımcı Mekanı CodeJam #2 İçin Hazırlanmıştır.
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yazılımcı Mekanı CodeJam #2">
+    <meta name="keywords" content="Ym2 YazılımcıMekanı CodeJam Code Jam YazılımcıMekanıCodeJam">
+    <meta name="author" content="YmJam2">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="fontawesome-free-5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="Shortcut Icon" href="img/ereb0s.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
+
+    <title>YmJam2</title>
+</head>
+
+<body>
+
+    <div id="loading">
+        <img src="img/video.gif" alt="Yükleniyor..." />
+    </div>
+
+    <div class="shadow"></div>
+
+    <div class="menu">
+        <div class="logo">
+            Front-end Dev.
+            <div class="sublogo">Erebos</div>
+        </div>
+
+        <ul>
+            <a href="index.html">
+                <li>HomePage</li>
+            </a>
+            <a href="about.html">
+                <li>About</li>
+            </a>
+            <a href="myprojects.html">
+                <li>MyProjects</li>
+            </a>
+            <a href="discord.html">
+                <li>Discord</li>
+            </a>
+            <a href="https://github.com/CanKayabas">
+                <li>GitHub</li>
+            </a>
+        </ul>
+    </div>
+
+    <div class="background">
+        <div class="container">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span>İletişime</span>
+                            <span>Geç</span>
+                        </div>
+                        <div class="app-contact">Discord Name: Erebos#0001</div>
+                    </div>
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="İSİM">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="E-MAIL">
+                            </div>
+                            <div class="app-form-group">
+                                <input class="app-form-control" placeholder="KONU" value="Hi Erebos!">
+                            </div>
+                            <div class="app-form-group message">
+                                <input class="app-form-control" placeholder="MESAJ">
+                            </div>
+                            <div class="app-form-group buttons">
+                                <button class="app-form-button">İPTAL</button>
+                                &nbsp; &nbsp;
+                                <button class="app-form-button">GÖNDER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script type="text/javascript">
+    let loading = document.getElementById("loading")
+
+    window.addEventListener('load', () => {
+        setTimeout(() => {
+            loading.remove()
+        }, 2000)
+    })
+</script>
+
+</html>
